@@ -2,6 +2,9 @@ source 'https://rubygems.org'
 
 
 gem 'aws-sdk-s3'
+# 언어설정
+gem 'rails-i18n', '~> 4.0'
+gem 'devise-i18n'
 # 환경변수 관리
 gem 'figaro'
 # 회원관리
